@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+</head>
+
+<body background="Image/3.png">
+<table width="1017" align="center">
+  <tr><td width="1017" height="603">
+<table width="1010" height="151" border="0" align="center">
+  <tr>
+    <td><img src="Image/haeder.png" width="1008" height="167" /></td>
+  </tr>
+</table>
+<table width="1010" height="74" border="0" align="center" bgcolor="#FF3300">
+  <tr>
+    <td width="644" height="70"><embed src="Sound/Katy Perry - Unconditionally.mp3" width="644" height="43"></embed></td>
+    <td width="356" bgcolor="#FFFF00" align="right"><p>
+        Username : 
+        <input name="input2" type="text" dir="ltr" size="40" /><br/>
+        Password :
+        <input name="" type="password" dir="ltr" size="40" /><br/>
+        <a href="register.html">Registrasi &nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="index.html"><input name="" type="reset" value="Reset" />
+        </a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="home.html">
+        <input name="" type="submit" value="Login" />
+        </a><br/>
+    </td>
+  </tr>
+</table>
+<table width="1010" height="382" border="0" align="center">
+  <tr>
+    <td width="994"><center><hr style="background:#00f;color:#f00;width:44%;border-bottom:3px dashed #ff0000"></center>
+<center><b><font face=elephant font size=25><span style="border:4px solid yellow;background:#0f0;color:#00f">SMK NEGERI 9</span></b></font></center>
+<center><hr style="background:#00f;color:#f00;width:44%;border-bottom:3px dashed #ff0000"><font face=elephant font size=15 font color=yellow>X RPL - 2</font>
+<br><font color=yellow font face=harrington font size=15>We Are Family</font> 
+<br><marquee width=9% scrollamount=20 behavior=alternate height=49px><font color=red size=15 font face=elephant>><font color=white>></marquee></font><font color=white font face=forte font size=15>Is The Best</font><marquee width=9% scrollamount=20 behavior=alternate height=49px><font color=white size=15 font face=elephant><font color=white><<font color=red><</marquee></font></center>
+<center><hr style="border-bottom:3px dashed yellow;background:green;width:87%;"></center><font face=elephant font size=7>
+<center><script language="JavaScript1.2">var message="Ini Adalah Web Site PSG"
+var neonbasecolor="#00f"
+var neontextcolor="#00FF00"
+var neontextcolor2="red"
+var flashspeed=40  // speed of flashing in milliseconds
+var flashingletters=8    // number of letters flashing in neontextcolor
+var flashingletters2=8  // number of letters flashing in neontextcolor2 (0 to disable)
+var flashpause=0    // the pause between flash-cycles in milliseconds
+///No need to edit below this line/////
+var n=0
+if (document.all||document.getElementById){
+document.write('<font color="'+neonbasecolor+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')
+}
+else
+document.write(message)
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+function neon(){
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+crossref(m).style.color=neonbasecolor
+}
+//cycle through and change individual letters to neon color
+crossref(n).style.color=neontextcolor
+if (n>flashingletters-1) crossref(n-flashingletters).style.color=neontextcolor2
+if (n>(flashingletters+flashingletters2)-1) crossref(n-flashingletters-flashingletters2).style.color=neonbasecolor
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",flashpause)
+return
+}
+}
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()</script></font></center>
+<script language="JavaScript">
+    var text="<center><b><font size=4 font color=white>Lisensi Dokumen:<br>Copyright © 2015 Nico Lahara<br>Seluruh script ini dapat digunakan, dimodifikasi dan disebarkan secara bebas untuk tujuan bukan komersial (nonprofit)<br>dengan syarat tidak menghapus atau merubah atribut penulis dan pernyataan copyright yang disertakan dalam setiap dokumen<br>Tidak diperbolehkan melakukan penulisan ulang,kecuali mendapatkan ijin terlebih dahulu dari Nico Lahara</center></b></font>";
+    var delay=100;
+    var currentChar=1;
+    var destination="[none]";
+    function type()
+    {
+    //if (document.all)
+    {
+    var dest=document.getElementById(destination);
+    if (dest)// && dest.innerHTML)
+    {
+    dest.innerHTML=text.substr(0, currentChar)+"<blink>_</blink>";
+    currentChar++;
+    if (currentChar>text.length)
+    {
+    currentChar=1;
+    setTimeout("type()", 30000);
+    }
+    else
+    {
+    setTimeout("type()", delay);
+    }
+    }
+    }
+    }
+    function startTyping(textParam, delayParam, destinationParam)
+    {
+    text=textParam;
+    delay=delayParam;
+    currentChar=1;
+    destination=destinationParam;
+    type();
+    }
+    </script>
+    
+    
+    <center><div 0px="" 10px="" arial="green" color:="" ff0000="" font:="" id="textDestination" margin:="" style="background-color:#00000f;">
+    </div>
+    <script language="JavaScript">
+    javascript:startTyping(text, 50, "textDestination"); 
+
+
+    </script></td>
+  </tr>
+</table>
+<table width="1010" height="42" border="0">
+<tr>
+<td height="42" bgcolor="#993300">
+<span class="style9"><strong><font face="comic sans ms" size="+2" color="#FFFFFF">
+<marquee behavior="alternate">
+Copyright &copy; X RPL 2 - 2015 By : Nico Gawa Lahara</font> </strong></span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
